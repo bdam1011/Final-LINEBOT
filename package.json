@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lineBot.js",
+    "debug": "node --inspect lineBot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.4.0",
+    "axios": "^0.25.0",
+    "config": "^3.3.7",
+    "express": "^4.17.2"
+  }
+}
